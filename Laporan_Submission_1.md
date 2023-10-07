@@ -27,7 +27,7 @@ Untuk menyusun strategi trading pada saham perusahaan United Tractors, diperluka
 
 ## Data Understanding
 
-Data saham United Tractors didapat dari [Kaggle](https://www.kaggle.com/datasets/rischan/indonesia-popular-stocks) dengan rentang waktu 20 tahun dari 5 September 2000 sampai 3 Juli 2020. Data yang didapat berjumlah 4980 baris dan 7 kolom.
+Data merupakan kumpulan harga saham United Tractors pada saat perdagangan saham. Data didapat dari [Kaggle](https://www.kaggle.com/datasets/rischan/indonesia-popular-stocks) dengan rentang waktu 20 tahun dari 5 September 2000 sampai 3 Juli 2020. Data yang didapat berjumlah 4980 baris dan 7 kolom. Seluruh data bersifat numerik dengan tipe data float.
 
 ### Variabel-variabel pada UNTR dataset adalah sebagai berikut:
 - Date : merupakan tanggal pada data diambil.

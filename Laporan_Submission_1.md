@@ -43,6 +43,11 @@ Data saham United Tractors didapat dari [Kaggle](https://www.kaggle.com/datasets
 - Membuang kolom yang memiliki nilai null.
 - Melakukan cek outlier pada data.
 - Melihat visualisasi korelasi antar variabel dan memutuskan untuk menggunakan variabel Open, High, dan Low sebagi fitur.
+
+<p align="center">
+  <img src="assets/corr.png", width="577", height="516">
+</p>
+
 - Membuang kolom yang tidak digunakan yaitu kolom Date, Adj Close, dan Volume.
 
 
@@ -80,9 +85,8 @@ MSE = 1/n * Σ(yi - y^i)^2
 
 Untuk perbandingan, digunakan nilai MSE pada training dan testing. Nilai MSE pada training digunakan untuk melihat seberapa baik model dalam mempelajari data. Sedangkan nilai MSE pada testing digunakan untuk melihat seberapa baik model dalam memprediksi data. Dari tiap model didapatkan nilai MSE pada training dan testing masing2 adalah 51.92 dan 448.58 pada Linear Regression, 43.2 dan 451.61 pada KNN, 90.28 dan 518.32 pada Random Forest, dan 417.14 dan 676.14 pada Adaptive Boosting.
 
+<p align="center">
+  <img src="assets/eval.png", width="635", height="506,25">
+</p>
+
 Berdasarkan hasil yang didapat, dapat disimpulkan model Linear Regression dan KNN nyaris setara performanya. Hanya saja, model Linear Regression lebih baik dalam memprediksi data sedangkan model KNN lebih baik dalam mempelajari data. Sedangkan model Random Forest dan Adaptive Boosting memiliki performa yang lebih buruk dibandingkan model Linear Regression dan KNN.
-
-_Catatan:_
-- _Anda dapat menambahkan gambar, kode, atau tabel ke dalam laporan jika diperlukan. Temukan caranya pada contoh dokumen markdown di situs editor [Dillinger](https://dillinger.io/), [Github Guides: Mastering markdown](https://guides.github.com/features/mastering-markdown/), atau sumber lain di internet. Semangat!_
-- Jika terdapat penjelasan yang harus menyertakan code snippet, tuliskan dengan sewajarnya. Tidak perlu menuliskan keseluruhan kode project, cukup bagian yang ingin dijelaskan saja.
-
